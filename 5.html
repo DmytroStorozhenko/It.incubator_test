@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Поиск</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="logo">
+        <img src="poisk.png" alt="logo">
+    </div>
+    <div class="search">
+        <input type="search" id="field" placeholder="Что ищем..." name="q">
+        <input type="submit" id="button" value="Найти!">
+    </div>
+    <script>
+        let arrOfObjects = [
+            { name: "Nastya", age: "25" },
+            { name: "Dmytriy", age: "26" },
+            { name: "Alexey_Kot", age: "3" },
+        ];
+
+        button.onclick = getFirstNameObj;
+        function getFirstNameObj() { alert(arrOfObjects[0].name) }
+
+    </script>
+
+</body>
+
+</html>

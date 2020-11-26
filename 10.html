@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Поиск</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="logo">
+        <img src="poisk.png" alt="logo">
+    </div>
+    <div class="search">
+        <input type="search" id="field" placeholder="Что ищем..." name="q">
+        <input type="submit" id="button" value="Найти!">
+    </div>
+    <script>
+        button.onclick = after3s;
+        function getText() {
+            if (document.getElementById("field").value === "google") {
+                alert("Yandex круче. Но это не точно")
+            } else {
+                alert(document.getElementById("field").value)
+            }
+        }
+        function after3s() { setTimeout(getText, 3000) }       
+    </script>
+</body>
+
+</html>

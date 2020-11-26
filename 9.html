@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title> Find max in array </title>
+</head>
+
+<body>
+    <script>
+        function findMax(arr) {
+            var max = 0;
+            for (var i = 0; i <= arr.length; i++) {
+                if (arr[i] >= max) {
+                    var max = arr[i];
+                }
+            }
+            return max
+        }
+        alert(findMax([5, 685, 89, 69, 12, 777, 16468, 1]));
+    </script>
+</body>
+
+</html>
